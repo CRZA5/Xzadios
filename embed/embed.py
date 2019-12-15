@@ -4,7 +4,7 @@ from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
 import contextlib
 import discord
 
-class Mycog(commands.Cog):
+class embed(commands.Cog):
     """My custom cog"""
 
     @commands.command()
