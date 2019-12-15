@@ -1,8 +1,4 @@
-from redbot.core import commands, checks, Config
-from redbot.core.utils.predicates import ReactionPredicate, MessagePredicate
-from redbot.core.utils.menus import DEFAULT_CONTROLS, menu
-import contextlib
-import discord
+from redbot.core import commands
 
 class embed(commands.Cog):
     """My custom cog"""
