@@ -1,7 +1,17 @@
 {
-    "AUTHOR" : "CRZA",
-    "INSTALL_MSG" : "These cogs are fun",
-    "NAME" : "embed",
-    "SHORT" : "null",
-    "DESCRIPTION" : "thanks"
+  "author": [
+    "CRZA"
+  ],
+  "bot_version": [
+    3,
+    0,
+    0
+  ],
+  "description": "Testing",
+  "hidden": false,
+  "install_msg": "Thank you for installing . Get started with `[p]load embed` and `[p]help embed`",
+  "short": "testing",
+  "tags": [
+    "cog"
+  ]
 }
