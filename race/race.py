@@ -1,19 +1,15 @@
 # Developed by Redjumpman for Redbot.
 # Inspired by the snail race mini game
 
-# STD Library
-import asyncio
-import random
-import os
-import time
-
-# Discord and Red Utils
-import discord
+from pathlib import Path
 from discord.ext import commands
-from __main__ import send_cmd_help
-from .utils import checks
-from .utils.dataIO import dataIO
 
+from redbot.core.utils.data_converter import DataConverter as dc
+from redbot.core.config import Config
+
+...
+
+await dc(config_instance).dict_import(some_processed_dict)
 creditIcon = ""
 credits = "Bot By CRZA. Cog by redjumpman"
 
